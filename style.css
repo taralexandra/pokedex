@@ -1,0 +1,237 @@
+
+/* General */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: lightgray; */
+    background: linear-gradient(rgba(242, 241, 241, 0.124), rgba(247, 246, 246, 0.111)), 
+              url('./images/img-background.png');
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+/* Background image source */
+
+/* https://www.freepik.com/free-vector/gradient-spring-landscape-concept_6880829.htm#fromView=search&page=1&position=42&uuid=ce45e699-0145-4a67-890f-3b44716d2b85&query=Background+cartoon+grass */
+
+.h1-poke {
+    display: block;
+    margin: 40px auto 0;
+} 
+
+/* Pokedex box */
+
+#content-box {
+    width: 500px;
+    height: 500px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: rgb(245, 53, 53);
+
+    display: flex;
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+#pokemon-infos {
+    width: 250px;
+    height: 500px;
+    text-align: center;
+}
+
+#pokemon-list {
+    width: 250px;
+    height: 500px;
+    background-color: black;
+
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+.pokemon-name {
+    border: 2px solid whitesmoke;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+.pokemon-name:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.pokemon-name.selected {
+    background-color: rgb(64, 64, 214);
+    color: #ffcc00;
+    font-weight: bold;
+    border: 2px solid #ffcc00;
+}
+
+#pokemon-infos img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: inset 0 0 1px 3px rgba(0, 0, 0, 0.4);
+
+
+}
+
+#pokemon-types {
+    margin-top: 10px;
+    
+}
+
+.type-box {
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+}
+
+.normal {
+    background-color: rgb(255, 246, 185);
+    color: black;
+}
+
+.grass {
+    background-color: green;
+    color: white;
+}
+
+.water {
+    background-color: rgb(63, 179, 251);
+    color: white;
+}
+
+.poison {
+    background-color: rgb(124, 21, 250);
+    color: white;
+}
+
+.bug {
+    background-color: limegreen;
+    color: white;
+}
+
+.ice {
+    background-color: cadetblue;
+    color: white;
+}
+
+.flying {
+    background-color: rgb(255, 0, 170);
+    color: white;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: red;
+    color: white;
+}
+
+.ghost {
+    background-color: grey;
+    color: white;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: white;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: white;
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: darkorange;
+    color: white;
+}
+
+#pokemon-description {
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+
+    margin: 0 auto; 
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+/* Pokeball img at the bottom */
+
+.pokeball {
+    display: block;
+    margin: 20px auto 0;
+    height: 60px;
+    width: 61px;
+    border-radius: 45px;
+    box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.567);
+}
+
+.pokeball:hover {
+    rotate: -15deg;
+    transform: scale(1.5);
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    color:rgb(64, 64, 214);
+    margin: 0 auto; 
+    text-align: center;
+    width: 300px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 4px solid rgb(64, 64, 214);
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.333);
+}
