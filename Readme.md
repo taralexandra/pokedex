@@ -14,4 +14,4 @@ The Favicon is from Icon8, a yellow star with a pokeball in the middle.
 
 Take a look to the project by looking at the link of the Github Pages on the right side of this project folder.
 
-[Image of the projet](./API%20Pokedex%20projet%20tara.png)
+<img src="https://github.com/taralexandra/pokedex/blob/main/screen-pokedex-project-completed.png?raw=true" alt="Aperçu du projet" width="500">
